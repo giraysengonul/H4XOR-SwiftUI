@@ -14,6 +14,8 @@
 		C4FED0DE2858B9E9009A6427 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FED0DD2858B9E9009A6427 /* NetworkManager.swift */; };
 		C4FED0E12858BA63009A6427 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FED0E02858BA63009A6427 /* Constants.swift */; };
 		C4FED0E32858BB45009A6427 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FED0E22858BB45009A6427 /* PostData.swift */; };
+		C4FED0E52858D4FB009A6427 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FED0E42858D4FB009A6427 /* DetailView.swift */; };
+		C4FED0E72858D792009A6427 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FED0E62858D792009A6427 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		C4FED0DD2858B9E9009A6427 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		C4FED0E02858BA63009A6427 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C4FED0E22858BB45009A6427 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		C4FED0E42858D4FB009A6427 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C4FED0E62858D792009A6427 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 			children = (
 				C4FED0CC2858B918009A6427 /* H4XOR_SwiftUIApp.swift */,
 				C4FED0CE2858B918009A6427 /* ContentView.swift */,
+				C4FED0E42858D4FB009A6427 /* DetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -87,6 +92,7 @@
 		C4FED0DB2858B95B009A6427 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C4FED0E62858D792009A6427 /* WebView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,10 +185,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4FED0E32858BB45009A6427 /* PostData.swift in Sources */,
+				C4FED0E52858D4FB009A6427 /* DetailView.swift in Sources */,
 				C4FED0DE2858B9E9009A6427 /* NetworkManager.swift in Sources */,
 				C4FED0CF2858B918009A6427 /* ContentView.swift in Sources */,
 				C4FED0CD2858B918009A6427 /* H4XOR_SwiftUIApp.swift in Sources */,
 				C4FED0E12858BA63009A6427 /* Constants.swift in Sources */,
+				C4FED0E72858D792009A6427 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +328,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -351,7 +359,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -9,7 +9,7 @@ import Foundation
 
 struct Result : Codable{
     
-    let hint : [Post]
+    let hits : [Post]
 }
 
 struct Post : Codable , Identifiable{
@@ -18,6 +18,6 @@ struct Post : Codable , Identifiable{
     }
     let objectID : String
     let points : Int
-    let title : String
+    let title : String?
     let url : String?
 }

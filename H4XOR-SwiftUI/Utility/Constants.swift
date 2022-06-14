@@ -9,3 +9,4 @@ import Foundation
 
 //API
 let stringUrl : String = "http://hn.algolia.com/api/v1/search?tags=front_page"
+let temporaryApi : String = "https://hakkicansengonul.github.io"
